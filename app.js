@@ -27,13 +27,13 @@ const ROYAL_CONFIG = {
         // SÉQUENCE COMPLÈTE CORRIGÉE
         textSequence: [
             { text: "LE", duration: 800, effect: "pulse", pauseAfter: 200 },
-            { text: "PALAIS", duration: 1000, effect: "zoomOut", pauseAfter: 250 },
+            { text: "PALAIS", duration: 1000, effect: "pulse", pauseAfter: 250 },
             { text: "ROYAL", duration: 900, effect: "pulse", pauseAfter: 200 },
-            { text: "DE", duration: 700, effect: "sparkle", pauseAfter: 150 },
-            { text: "SOINGS", duration: 1100, effect: "explosive", pauseAfter: 300 },
-            { text: "EN", duration: 600, effect: "cascade", pauseAfter: 150 },
+            { text: "DE", duration: 700, effect: "pulse", pauseAfter: 150 },
+            { text: "SOINGS", duration: 1100, effect: "pulse", pauseAfter: 300 },
+            { text: "EN", duration: 600, effect: "pulse", pauseAfter: 150 },
             { text: "SOLOGNE", duration: 1200, effect: "pulse", pauseAfter: 400 },
-            { text: "VOUS", duration: 800, effect: "zoomOut", pauseAfter: 300 },
+            { text: "VOUS", duration: 800, effect: "pulse", pauseAfter: 300 },
             { text: "SOUHAITE", duration: 1000, effect: "pulse", pauseAfter: 350 },
             { text: "UN JOYEUX ANNIVERSAIRE", duration: 2500, effect: "finale", pauseAfter: 1000 }
         ],
