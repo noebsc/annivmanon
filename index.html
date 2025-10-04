@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palais Royal de Soings-en-Sologne - Joyeux Anniversaire Reine Manon 👑</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Loading Screen -->
+    <div id="loading-screen" class="loading-screen">
+        <div class="loading-container">
+            <div class="royal-crown">
+                <div class="crown-points">
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                    <div class="point"></div>
+                </div>
+                <div class="crown-base"></div>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+            <p class="loading-text">Chargement de l'expérience royale...</p>
+        </div>
+        <div class="royal-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+    </div>
+
+    <!-- Start Experience Button -->
+    <div id="start-overlay" class="start-overlay hidden">
+        <div class="start-container">
+            <h1 class="royal-title">Bienvenue au Palais Royal</h1>
+            <p class="royal-subtitle">Une expérience royale vous attend</p>
+            <button id="start-btn" class="btn btn--primary royal-start-btn">
+                <span>✨ Commencer l'expérience royale ✨</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Experience -->
+    <div id="main-experience" class="main-experience hidden">
+        <!-- Background Particles -->
+        <div class="background-particles">
+            <div class="floating-particle"></div>
+            <div class="floating-particle"></div>
+            <div class="floating-particle"></div>
+            <div class="floating-particle"></div>
+            <div class="floating-particle"></div>
+            <div class="floating-particle"></div>
+            <div class="floating-particle"></div>
+            <div class="floating-particle"></div>
+            <div class="floating-particle"></div>
+            <div class="floating-particle"></div>
+        </div>
+
+        <!-- Confetti Container -->
+        <div id="confetti-container" class="confetti-container"></div>
+
+        <!-- Text Animation Container -->
+        <div id="text-container" class="text-animation-container">
+            <div class="text-display" id="text-display"></div>
+        </div>
+
+        <!-- Royal Image Container -->
+        <div id="royal-image-container" class="royal-image-container hidden">
+            <div class="image-frame">
+                <div class="frame-decoration"></div>
+                <div class="royal-image-placeholder">
+                    <div class="crown-icon">👑</div>
+                    <p class="placeholder-text">Reine Manon</p>
+                </div>
+                <div class="image-particles">
+                    <div class="orbit-particle"></div>
+                    <div class="orbit-particle"></div>
+                    <div class="orbit-particle"></div>
+                    <div class="orbit-particle"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Final Message -->
+        <div id="final-message" class="final-message hidden">
+            <div class="message-container">
+                <h2 class="message-title">Il est temps d'ouvrir la lettre royale</h2>
+                <p class="message-subtitle">Scannez le QR code sur votre enveloppe royale 👑</p>
+                <div class="message-decoration">
+                    <div class="deco-line"></div>
+                    <div class="deco-diamond">💎</div>
+                    <div class="deco-line"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Audio Control -->
+        <div class="audio-control">
+            <button id="audio-toggle" class="audio-btn">
+                <span id="audio-icon">🎵</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Audio Element -->
+    <audio id="royal-music" loop preload="auto">
+        <source src="musique_royale.mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="app.js"></script>
+</body>
+</html>
