@@ -38,12 +38,12 @@
         </div>
     </div>
 
-    <!-- Start Experience Button -->
-    <div id="start-overlay" class="start-overlay hidden">
+    <!-- Start Experience Button - CORRIGÉ POUR ÊTRE VISIBLE -->
+    <div id="start-overlay" class="start-overlay">
         <div class="start-container">
             <h1 class="royal-title">Bienvenue au Palais Royal</h1>
             <p class="royal-subtitle">Une expérience royale vous attend</p>
-            <button id="start-btn" class="btn btn--primary royal-start-btn">
+            <button id="start-btn" class="royal-start-btn">
                 <span>✨ Commencer l'expérience royale ✨</span>
             </button>
         </div>
@@ -78,8 +78,11 @@
             <div class="image-frame">
                 <div class="frame-decoration"></div>
                 <div class="royal-image-placeholder">
-                    <div class="crown-icon">👑</div>
-                    <p class="placeholder-text">Reine Manon</p>
+                    <div class="queen-portrait">
+                        <div class="crown-large">👑</div>
+                        <div class="queen-face">👸🏻</div>
+                        <p class="queen-name">Reine Manon</p>
+                    </div>
                 </div>
                 <div class="image-particles">
                     <div class="orbit-particle"></div>
@@ -93,21 +96,14 @@
         <!-- Final Message -->
         <div id="final-message" class="final-message hidden">
             <div class="message-container">
-                <h2 class="message-title">Il est temps d'ouvrir la lettre royale</h2>
-                <p class="message-subtitle">Scannez le QR code sur votre enveloppe royale 👑</p>
+                <h2 class="message-title">Il est temps d'ouvrir la lettre royale !</h2>
+                <p class="message-subtitle">(L'enveloppe avec le QR code qui vous a menée ici) 👑📜</p>
                 <div class="message-decoration">
                     <div class="deco-line"></div>
                     <div class="deco-diamond">💎</div>
                     <div class="deco-line"></div>
                 </div>
             </div>
-        </div>
-
-        <!-- Audio Control -->
-        <div class="audio-control">
-            <button id="audio-toggle" class="audio-btn">
-                <span id="audio-icon">🎵</span>
-            </button>
         </div>
     </div>
 
